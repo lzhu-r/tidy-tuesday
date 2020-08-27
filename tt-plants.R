@@ -61,8 +61,8 @@ ggplot() +
         panel.grid.major.x = element_blank(),
         panel.grid.major.y = element_line(linetype = "dashed", colour = "grey70"),
         panel.grid.minor = element_blank(),
-        panel.background = element_rect(fill = "beige"),
-        plot.background = element_rect(fill = "beige"),
+        panel.background = element_rect(fill = "grey90"),
+        plot.background = element_rect(fill = "grey90"),
         legend.position = "bottom")
 
 ggsave("tidy-tuesday-w34.png", plot = last_plot(), device = "png", width = 10, height = 8, dpi = 200)
